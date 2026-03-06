@@ -41,3 +41,6 @@ plugins:
   - name: elementary
     variant: matatika
     pip_url: elementary-data[postgres,snowflake]==0.20.1 git+https://github.com/matatika/elementary-ext.git
+  - name: dbt-artifacts
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/dbt-artifacts-ext.git@v0.1.0
