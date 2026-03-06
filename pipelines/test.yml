@@ -1,0 +1,7 @@
+version: pipelines/v0.1
+label: test
+timeout: 0
+max_retries: 0
+script: traceroute 8.8.8.8
+data_components:
+- Warehouse
